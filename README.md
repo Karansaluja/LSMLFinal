@@ -19,7 +19,7 @@ Response
 
 The service uses pretrained question-answering model called `deepset/roberta-base-squad2`.
 
-###Service Components
+### Service Components
 - **ML Model** - The `ml_model` module has `QAModel` class that acts as a wrapper
 over the pretrained model. This model is lazily loaded when the first call
 is made.
