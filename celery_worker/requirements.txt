@@ -1,0 +1,4 @@
+celery[mongodb]
+boto3
+pymongo
+transformers==4.18.0
